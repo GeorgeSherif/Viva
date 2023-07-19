@@ -15,6 +15,11 @@ const ProductsSchema = new Schema({
       type: String,
     },
   ],
+  sizesAvailable: [
+    {
+      type: String,
+    },
+  ],
   productOrderToShow: {
     type: Number,
     unique: true,

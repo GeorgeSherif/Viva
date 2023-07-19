@@ -18,6 +18,8 @@ exports.addProduct = catchAsync(async (req, res, next) => {
     productWholesalePrice,
     productConsumerPrice,
     productMOQs,
+    coloursAvailable,
+    sizesAvailable,
   } = req.body;
   const newProduct = await Products.create({
     productName,
@@ -27,6 +29,8 @@ exports.addProduct = catchAsync(async (req, res, next) => {
     productWholesalePrice,
     productConsumerPrice,
     productMOQs,
+    coloursAvailable,
+    sizesAvailable,
   });
 
   res.status(200).json({
