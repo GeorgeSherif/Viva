@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cdf1dfa0.css",
+    "main.js": "/static/js/main.3bcb6de8.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/background4.mp4": "/static/media/background4.6424568a867c855da250.mp4",
+    "static/media/GreenPJ-1.jpg": "/static/media/GreenPJ-1.5273357077c8ae741347.jpg",
+    "static/media/Lime-2.jpg": "/static/media/Lime-2.abf05742100afb562742.jpg",
+    "static/media/GreenPJ-2.jpg": "/static/media/GreenPJ-2.f166557140effbeb10d9.jpg",
+    "static/media/Lime-1.jpg": "/static/media/Lime-1.91798ba24ecdaf4528c3.jpg",
+    "static/media/Best Sellers2.png": "/static/media/Best Sellers2.581ff6a69434a14c07af.png",
+    "static/media/SummerCollection.jpg": "/static/media/SummerCollection.58aade461c1df45b4596.jpg",
+    "static/media/PJBlue-1.jpg": "/static/media/PJBlue-1.d0d035d7918c50f5a7f4.jpg",
+    "static/media/PJBlue-2.jpg": "/static/media/PJBlue-2.b6cf878658494624f4b2.jpg",
+    "static/media/logo.webp": "/static/media/logo.5372ac5ff64b77fcfce6.webp",
+    "static/media/logo2.jpg": "/static/media/logo2.0caf8fd8790373804416.jpg",
+    "index.html": "/index.html",
+    "main.cdf1dfa0.css.map": "/static/css/main.cdf1dfa0.css.map",
+    "main.3bcb6de8.js.map": "/static/js/main.3bcb6de8.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdf1dfa0.css",
+    "static/js/main.3bcb6de8.js"
+  ]
+}

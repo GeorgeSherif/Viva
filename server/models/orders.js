@@ -10,13 +10,15 @@ const OrdersSchema = new Schema({
   },
   email: {
     type: String,
-    unique: true,
   },
   phoneNumber: {
     type: String,
   },
   cart: [
     {
+      productName: {
+        type: String,
+      },
       productID: {
         type: String,
       },

@@ -4,11 +4,13 @@ const Schema = mongoose.Schema;
 const ProductsSchema = new Schema({
   productName: {
     type: String,
-    unique: true,
   },
   productID: {
     type: String,
     unique: true,
+  },
+  family: {
+    type: String,
   },
   coloursAvailable: [
     {
@@ -22,7 +24,6 @@ const ProductsSchema = new Schema({
   ],
   productOrderToShow: {
     type: Number,
-    unique: true,
   },
   productMaterial: {
     type: String,

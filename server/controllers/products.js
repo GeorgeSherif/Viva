@@ -1,7 +1,7 @@
 const ErrorResponse = require("../utils/ExpressError");
 const catchAsync = require("../utils/catchAsync");
 
-const Products = require("../models/Products");
+const Products = require("../models/products");
 
 exports.getAllProducts = catchAsync(async (req, res, next) => {
   const l = await Products.find({});
@@ -20,6 +20,7 @@ exports.addProduct = catchAsync(async (req, res, next) => {
     productMOQs,
     coloursAvailable,
     sizesAvailable,
+    family,
   } = req.body;
   const newProduct = await Products.create({
     productName,
@@ -31,6 +32,7 @@ exports.addProduct = catchAsync(async (req, res, next) => {
     productMOQs,
     coloursAvailable,
     sizesAvailable,
+    family,
   });
 
   res.status(200).json({
